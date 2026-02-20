@@ -1,6 +1,7 @@
 # A/B Testing Readiness Calculator
 
 A self-initiated project designed to help founders, product teams, and analysts evaluate whether they are ready to run a statistically valid A/B test.
+You can visit the Calculator through this link: ab-testing-readiness-calculator.vercel.app
 
 ## 📌 Project Overview
 
