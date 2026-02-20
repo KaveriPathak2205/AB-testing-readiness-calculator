@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# A/B Testing Readiness Calculator
 
-## Project info
+A self-initiated project designed to help founders, product teams, and analysts evaluate whether they are ready to run a statistically valid A/B test.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 📌 Project Overview
 
-## How can I edit this code?
+This project was independently conceptualized and developed to strengthen my practical understanding of experimentation, statistical reasoning, and data-driven decision-making.
 
-There are several ways of editing your application.
+The A/B Testing Readiness Calculator helps teams assess whether they have sufficient traffic, clear objectives, and statistically sound parameters before launching an experiment.
 
-**Use Lovable**
+Rather than running A/B tests blindly, this tool encourages structured thinking around:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- Traffic volume
+- Baseline conversion rate
+- Minimum Detectable Effect (MDE)
+- Statistical confidence level
+- Risk tolerance
+- Business impact
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 Why I Built This
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+A/B testing is often misunderstood or misapplied in early-stage teams. Many experiments fail not because the idea is bad, but because:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Sample size is too small  
+- MDE is unrealistic  
+- Test duration is insufficient  
+- Statistical assumptions are unclear  
 
-Follow these steps:
+This calculator acts as a readiness checkpoint before experimentation begins.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Core Inputs
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Monthly traffic
+- Baseline conversion rate
+- Expected lift (MDE)
+- Confidence level (e.g., 95%)
+- Risk tolerance
+- Business objective
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📊 Key Concepts Used
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Statistical significance
+- Confidence intervals
+- Minimum Detectable Effect (MDE)
+- Sample size reasoning
+- Experiment feasibility evaluation
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+## 🛠 Tech Stack
 
 - Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- shadcn-ui
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
